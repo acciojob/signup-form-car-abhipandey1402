@@ -8,17 +8,12 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	
-<form method="post" target="_blank">
-		<div>
-			<lable for="name">Name*</lable>
-			<input type="text" required id="name">
-		</div>
-		<div>
-			<lable for="email">Email*</lable>
-			<input type="email" id="email" required>
-		</div>
-		<div>
+	<form method="post" target="_blank">
+        <div><label for="name">Name*</label>
+        <input type="text" required id="name"></div>
+        <div><label for="email">Email*</label>
+        <input type="email" id="email" required></div>
+        <div>
 			<label>Gender*</label>
 			<lable for="male">Male</lable>
 			<input type="radio" id="male" name="gender" required>
@@ -27,33 +22,30 @@
 			<lable for="other">Other</lable>
 			<input type="radio" id="other" name="gender" required>
 		</div>
-		<div>
-			<lable for="cars">Car Brands</lable>
-			<select id="cars">
-				<option value="bmw">BMW</option>
-				<option value="audi">Audi</option>
-				<option value="mercedes">Mercedez</option>
-			</select>
-		</div>
-		<div>
+        <div>
+            <label for="cars">Car Brands</label>
+            <select id="cars">
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+                <option value="mercedez">Mercedez</option>
+            </select>
+        </div>
+        <div>
 			<lable for="carage">Car Age*</lable>
 			<input type="number" id="carage" required min = "0">
 		</div>
 		<div>
-			<lable for="dop">Date of Purchase(dop)*</lable>
-			<input type="date" id="dop" required>
+			<lable for="dob">Date of Purchase(dop)*</lable>
+			<input type="date" id="dob" required>
 		</div>
-		<div>
-			<label for="password">Password*</label>
-			<input type="password" id="password" required>
-		</div>
-
-		<div>
+        <div>
+            <label for="password">Password*</label>
+            <input type="password" required id="password">
+        </div>
+        <div>
 		<button type="submit">submit button</button>
 	</div>
-		
-		
-	</form>
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
